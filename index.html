@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang = en>
+    <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CAWWWW</title>
+    <link rel="stylesheet" href="style.css">
+        <script src="https://unpkg.com/wavesurfer.js@7"></script>
+    </head>
+    <body>
+    <title>WELCOME TO THE USA 📍</title>
+    <div id="song-container">
+        <div id="song">
+            <h1>THE STAR SPANGLED BANNER</h1>
+        </div>
+        <img src="CAW.png" id="playBtn">
+        <div id="waveform"></div>
+        </div>
+    <script>
+        var playBtn = document.getElementById("playBtn");
+
+        var wavesurfer = WaveSurfer.create({
+            container: '#waveform',
+            waveColor: 'darkblue',
+            progressColor: 'red',
+            height: 100,
+            barWidth: 4,
+            responsive: true,
+            barRadius: 1.67,
+        });
+            
+    wavesurfer.load('Star.mp3');
+
+    playBtn.onclick = function(){
+        wavesurfer.playPause();
+    }
+
+    </script>
+    </body>
+</html>

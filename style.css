@@ -14,12 +14,13 @@ body {
   padding: 20px;
   background: rgb(157, 12, 12);
   border-radius: 18px;
+  text-align: center;
 }
 
 #Capital {
   width: min(1200px, 92vw);
   margin: 40px auto;
-  padding: 20px;
+  padding: 13px;
   background: rgb(255, 255, 255);
   border-radius: 18px;
   align-items: flex;

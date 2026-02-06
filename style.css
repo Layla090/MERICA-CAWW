@@ -1,6 +1,7 @@
 body {
     background: url("Fathers.jpeg");
 }
+
 #song{
   display: flex;
   flex-direction: column;
@@ -15,6 +16,9 @@ body {
   background: rgb(157, 12, 12);
   border-radius: 18px;
   text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: aliceblue;
+  font-size: 40px;
 }
 
 #Capital {
@@ -24,6 +28,48 @@ body {
   background: rgb(255, 255, 255);
   border-radius: 18px;
   align-items: flex;
+}
+
+#ball {
+  width: min(1200px, 92vw);
+  margin: 40px auto;
+  padding: 13px;
+  background: rgb(255, 255, 255);
+  border-radius: 18px;
+  align-items: flex;
+}
+
+#commies {
+  width: 500px;
+  margin: 40px auto;
+  padding: 20px;
+  background: rgb(13, 8, 66);
+  border-radius: 18px;
+}
+
+#messi {
+  width: 500px;
+  margin: 40px auto;
+  padding: 20px;
+  background: rgb(13, 8, 66);
+  border-radius: 18px;
+}
+
+#pot {
+  width: min(1200px,92vw);
+  margin: 40px auto;
+  padding: 13px;
+  background: rgb(255, 255, 255);
+  border-radius: 18px;
+  align-items: flex;
+}
+
+#mix {
+  width: 500px;
+  margin: 40px auto;
+  padding: 20px;
+  background: rgb(13, 8, 66);
+  border-radius: 18px;
 }
 
 #picmon {
